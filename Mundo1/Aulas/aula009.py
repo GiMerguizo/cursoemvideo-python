@@ -1,0 +1,27 @@
+frase = 'Curso em Vídeo Python'
+print(frase)
+print(frase[6])
+print(frase[6:8])
+print(frase[9:])
+print(frase[:5])
+print(frase[::2])
+print("""Porque Deus tanto amou o mundo que deu o seu Filho Unigênito,
+para que todo o que nele crer não pereça,
+mas tenha a vida eterna.
+João 3.16""")
+print(frase.count('o'))
+print(frase.count('O'))
+print(frase.upper().count('O'))
+print(len(frase))
+print(frase.replace('Curso em', 'Aula de'))
+print(frase.title())
+print('Curso' in frase)
+print(frase.find('Python'))
+print(frase.find('python'))
+print(frase.lower().find('python'))
+print(frase.split())
+dividido = frase.split()
+print(dividido[0])
+print(dividido[3][0])
+print(frase.capitalize())
+print('-'.join(dividido))

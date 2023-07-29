@@ -1,0 +1,7 @@
+nome = str(input('Qual é o seu nome completo? ')).strip()
+print('Com as \033[32mletras maiúsculas\033[m: {:=^30}')
+print('Com as \033[34mletras minúsculas\033[m: {:-^30}'.format(nome.lower()))
+ns = nome.split()
+print('A quantidade de letras do seu nome é \033[97m{}\033[m'.format(len(nome) - nome.count(' ')))
+print('Seu \033[4mprimeiro nome\033[m é \033[36m{}\033[m e ele tem \033[35m{} letras\033[m'.format(ns[0], len(ns[0])))
+# print('Seu primeiro nome tem {} letras'.format(nome.find(' ')))
